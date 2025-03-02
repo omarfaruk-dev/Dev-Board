@@ -108,9 +108,3 @@ document.getElementById('completed-btn-5').addEventListener('click', function ()
 document.getElementById('completed-btn-6').addEventListener('click', function () {
     handleButtonClick(6);
 });
-
-
-if (currentCompletedTask === 30 && !alertShown) {
-    alert("🎉 Congratulations! You have completed all tasks.");
-    alertShown = true;
-}
